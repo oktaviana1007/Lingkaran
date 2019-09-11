@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC0C0C0"
+    tools:context=".InfoFragment"
+    android:orientation="horizontal">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/kel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="50dp"
+        android:text="About Us"
+        android:textColor="	#FF008080"
+        android:fontFamily="@font/cina"
+        android:textSize="50dp"
+        android:textStyle="bold"/>
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="-240dp"
+        android:layout_marginTop="170dp"
+        android:src="@drawable/pia" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OKTAVIANA"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"
+        android:textColor="#000000"
+        android:fontFamily="@font/p"
+        android:textSize="27dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/teen"
+            android:text="1717051007"
+            android:layout_marginLeft="-235dp"
+            android:layout_marginTop="200dp"
+            android:textColor="#000000"
+            android:textSize="27dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="-364dp"
+        android:layout_marginTop="350dp"
+        android:src="@drawable/parhan" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Muhammad Farhan"
+        android:fontFamily="@font/p"
+        android:layout_marginTop="320dp"
+        android:textColor="#000000"
+        android:textSize="27dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1717051009"
+        android:fontFamily="@font/teen"
+        android:layout_marginLeft="-235dp"
+        android:layout_marginTop="375dp"
+        android:textColor="#000000"
+        android:textSize="27dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="-364dp"
+        android:layout_marginTop="535dp"
+        android:src="@drawable/ripki3" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="M Rifki Kurniawan"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="510dp"
+        android:textColor="#000000"
+        android:fontFamily="@font/p"
+        android:textSize="27dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-235dp"
+        android:text="1717051041"
+        android:layout_marginTop="565dp"
+        android:fontFamily="@font/teen"
+        android:textColor="#000000"
+        android:textSize="27dp"/>
+
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.example.lingkaran.HomeFragment">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lingkaran"
+        android:scaleType="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp"
+        android:padding="1dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/p"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textSize="20dp"
+        android:text="@string/lingkaran_adalah_contoh_dari_kurva_tertutup_sederhana_membagi_bidang_menjadi_bagian_dalam_dan_bagian_luar"
+        android:textColor="#000000" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:fontFamily="@font/teen"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textSize="20dp"
+        android:text="Rumus dalam menghitung lingkaran sebagai berikut:"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="525dp"
+        android:layout_marginLeft="15dp"
+        android:fontFamily="@font/animeace"
+        android:padding="15dp"
+        android:text="@string/luas_phi_r_r"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="525dp"
+        android:fontFamily="@font/animeace"
+        android:padding="15dp"
+        android:text="@string/keliling_2_phi_r"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn_category"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="570dp"
+        android:background="#FF99CCFF"
+        android:fontFamily="font/Qarmic"
+        android:text="@string/luas_lingkaran" />
+
+    <Button
+        android:id="@+id/btn_category2"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="570dp"
+        android:layout_marginRight="22dp"
+        android:background="#FF99CCFF"
+        android:fontFamily="font/Qarmic"
+        android:text="@string/keliling_lingkaran" />
+
+    <ImageButton
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/informa"
+        android:background="#FFFFFF"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lingkaran</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="lingkaran_adalah_contoh_dari_kurva_tertutup_sederhana_membagi_bidang_menjadi_bagian_dalam_dan_bagian_luar">Lingkaran adalah contoh dari kurva tertutup sederhana, membagi bidang menjadi bagian dalam dan bagian luar.</string>
+    <string name="rumus">Rumus :</string>
+    <string name="luas_phi_r_r">Luas = phi*r*r</string>
+    <string name="keliling_2_phi_r">Keliling = 2*phi*r</string>
+    <string name="luas_lingkaran">Luas Lingkaran</string>
+    <string name="keliling_lingkaran">Keliling Lingkaran</string>
+</resources>
